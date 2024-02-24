@@ -3,6 +3,7 @@ import { Nunito } from 'next/font/google'
 import { siteInfo } from '~/configs/site'
 
 import './globals.css'
+import Navbar from '~/components/shared/nav'
 
 const nunito = Nunito({ subsets: ['latin'] })
 
@@ -23,7 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={nunito.className}>{children}</body>
+      <body className={nunito.className}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
