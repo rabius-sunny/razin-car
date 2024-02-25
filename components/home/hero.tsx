@@ -13,7 +13,7 @@ export default function Hero() {
   ])
 
   return (
-    <Container className='min-h-[36rem] mt-6'>
+    <Container className='mt-6'>
       <div className='grid lg:grid-cols-4 lg:gap-6'>
         <div className='hidden lg:block lg:col-span-1 bg-gradient-to-r from-slate-300 to-slate-100 lg:rounded-l-xl py-6 px-4'>
           <div className='flex items-center size-full'>
