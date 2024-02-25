@@ -11,6 +11,7 @@ const config = {
       secondary: '#4F46E5',
       success: '#34D399',
       black: '#282828',
+      light: colors.slate[300],
       white: colors.white,
       red: colors.red,
       rose: colors.rose,

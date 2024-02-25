@@ -3,3 +3,9 @@ type TCategories = {
   items: string[]
   image: string
 }
+
+type TProduct = {
+  name: string
+  price: Number
+  image: string
+}
