@@ -1,5 +1,5 @@
-import { Heart, ShoppingCart } from 'lucide-react'
 import Container from '~/components/ui/container'
+import { Heart, ShoppingCart } from 'lucide-react'
 
 export default function Logobar() {
   return (

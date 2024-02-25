@@ -3,6 +3,7 @@ import { Nunito } from 'next/font/google'
 import { siteInfo } from '~/configs/site'
 
 import './globals.css'
+
 import Navbar from '~/components/shared/nav'
 
 const nunito = Nunito({ subsets: ['latin'] })

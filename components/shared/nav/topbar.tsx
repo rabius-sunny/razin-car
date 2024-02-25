@@ -1,6 +1,6 @@
-import { Facebook, Github, Linkedin, Lock } from 'lucide-react'
 import Link from 'next/link'
 import Container from '~/components/ui/container'
+import { Facebook, Github, Linkedin, Lock } from 'lucide-react'
 
 export default function Topbar() {
   return (

@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -8,8 +9,6 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger
 } from '~/components/ui/navigation-menu'
-
-import Image from 'next/image'
 
 export default function Navmenu() {
   return (
