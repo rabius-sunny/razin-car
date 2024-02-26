@@ -8,10 +8,9 @@ import { Button } from '../ui/button'
 import Container from '../ui/container'
 
 export default function Hero() {
-  const [emblaRef] = useEmblaCarousel({ loop: true, duration: 10 }, [
-    Autoplay()
+  const [emblaRef] = useEmblaCarousel({ loop: true, align: 'start' }, [
+    Autoplay({ delay: 3000 })
   ])
-
   return (
     <Container className='mt-6'>
       <div className='grid lg:grid-cols-4 lg:gap-6'>
@@ -45,7 +44,7 @@ export default function Hero() {
             ref={emblaRef}
           >
             <div className='flex'>
-              <div className='embla__slide bg-primary'>
+              <div className='embla__slide'>
                 <Image
                   src='/images/sliders/slider1.jpg'
                   alt='slide'
@@ -54,7 +53,7 @@ export default function Hero() {
                   className='size-full'
                 />
               </div>
-              <div className='embla__slide bg-primary'>
+              <div className='embla__slide'>
                 <Image
                   src='/images/sliders/slider2.jpg'
                   alt='slide'
@@ -63,7 +62,7 @@ export default function Hero() {
                   className='size-full'
                 />
               </div>
-              <div className='embla__slide bg-primary'>
+              <div className='embla__slide'>
                 <Image
                   src='/images/sliders/slider3.jpg'
                   alt='slide'
