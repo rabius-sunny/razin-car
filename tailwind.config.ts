@@ -10,7 +10,7 @@ const config = {
       primary: '#E11D48',
       secondary: '#4F46E5',
       success: '#34D399',
-      black: '#282828',
+      black: colors.slate[800],
       light: colors.slate[300],
       white: colors.white,
       red: colors.red,

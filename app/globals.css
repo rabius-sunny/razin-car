@@ -4,10 +4,13 @@
 
 @layer base {
   h1 {
-    @apply text-3xl font-medium;
+    @apply text-2xl sm:text-3xl font-medium text-black;
   }
   h2 {
-    @apply text-xl font-medium;
+    @apply text-xl font-medium text-black;
+  }
+  p {
+    @apply text-sm sm:text-base;
   }
   .flex-center {
     @apply flex items-center justify-center;
